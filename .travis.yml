@@ -27,8 +27,6 @@ jobs:
       before_install:
         - cd ..
         - git clone --depth=1 --branch=master https://github.com/azerothcore/azerothcore-wotlk.git azerothcore-wotlk
-        - mv "$TRAVIS_BUILD_DIR" azerothcore-wotlk/modules
-        - git clone --depth=1 --branch=master https://github.com/ElunaLuaEngine/Eluna.git azerothcore-wotlk/modules/$(basename "$TRAVIS_BUILD_DIR")/LuaEngine
         - cd azerothcore-wotlk
         - source ./apps/ci/ci-before_install.sh
       install:
@@ -42,7 +40,6 @@ jobs:
         - cd ..
         - git clone --depth=1 --branch=master https://github.com/azerothcore/azerothcore-wotlk.git azerothcore-wotlk
         - mv "$TRAVIS_BUILD_DIR" azerothcore-wotlk/modules
-        - git clone --depth=1 --branch=master https://github.com/ElunaLuaEngine/Eluna.git azerothcore-wotlk/modules/$(basename "$TRAVIS_BUILD_DIR")/LuaEngine
         - cd azerothcore-wotlk
         - source ./apps/ci/ci-before_install.sh
       install:
@@ -57,8 +54,6 @@ jobs:
       before_install:
         - cd ..
         - git clone --depth=1 --branch=master https://github.com/azerothcore/azerothcore-wotlk.git azerothcore-wotlk
-        - mv "$TRAVIS_BUILD_DIR" azerothcore-wotlk/modules
-        - git clone --depth=1 --branch=master https://github.com/ElunaLuaEngine/Eluna.git azerothcore-wotlk/modules/$(basename "$TRAVIS_BUILD_DIR")/LuaEngine
         - cd azerothcore-wotlk
         - source ./apps/ci/ci-before_install.sh
       install:
@@ -72,7 +67,6 @@ jobs:
         - cd ..
         - git clone --depth=1 --branch=master https://github.com/azerothcore/azerothcore-wotlk.git azerothcore-wotlk
         - mv "$TRAVIS_BUILD_DIR" azerothcore-wotlk/modules
-        - git clone --depth=1 --branch=master https://github.com/ElunaLuaEngine/Eluna.git azerothcore-wotlk/modules/$(basename "$TRAVIS_BUILD_DIR")/LuaEngine
         - cd azerothcore-wotlk
         - source ./apps/ci/ci-before_install.sh
       install:
