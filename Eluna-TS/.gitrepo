@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/eluna-ts
+	branch = master
+	commit = bf4328e8bac3994d772d3e0b74be121d50c41e04
+	parent = fccb551d5b04f66aeb907ce11e3862764df24ad3
+	method = merge
+	cmdver = 0.4.3

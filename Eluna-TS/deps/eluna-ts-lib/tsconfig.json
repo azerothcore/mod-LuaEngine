@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "esnext",
+        "declaration": true,
+        "lib": [
+            "esnext"
+        ],
+        "moduleResolution": "node",
+        "types": [
+            "lua-types/5.2",
+            "../eluna-ts-definitions"
+        ],
+        "typeRoots": [
+            "./node_modules/@types",
+            "../eluna-ts-definitions"
+        ],
+        "rootDir": "src"
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "tstl": {
+        "luaTarget": "5.2",
+        "noHeader": true,
+        "luaLibImport": "always",
+        "luaBundle": "./dist/@azerothcore/eluna-ts-lib.lua",
+        "luaBundleEntry": "./src/index.ts"
+    }
+}
