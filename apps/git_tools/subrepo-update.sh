@@ -29,4 +29,4 @@ subrepoUpdate https://github.com/azerothcore/bash-lib  master deps/acore/bash-li
 
 subrepoUpdate https://github.com/azerothcore/eluna-ts  master Eluna-TS
 
-subrepoUpdate https://github.com/ElunaLuaEngine/Eluna.git  master deps/LuaEngine
+git subrepo pull deps/LuaEngine
