@@ -19,21 +19,21 @@ You can get the sources either using git (recommended) or downloading them manua
 ```
 git clone https://github.com/azerothcore/mod-eluna-lua-engine.git
 ```
-4. go inside the **mod-eluna-lua-engine** folder: `cd mod-eluna-lua-engine`
-5. download the Eluna sources using `git submodule update --init`
-
-Optional: if you need to update Eluna to the latest version, you can `cd LuaEngine` and run `git pull` from there.
-
-#### download manually 
-
-1. download [mod-eluna-lua-engine](https://github.com/azerothcore/mod-eluna-lua-engine/archive/master.zip)  
-2. extract it move the folder **mod-eluna-lua-engine** inside the **modules** folder of your azerothcore-wotlk sources
-3. download [Eluna](https://github.com/ElunaLuaEngine/Eluna/archive/master.zip) 
-4. extract it and move all the files inside the `Eluna-master` folder into the `mod-eluna-lua-engine/LuaEngine` folder. `LuaEngine.h` needs to be directly under `mod-eluna-lua-engine/LuaEngine` without any extra sub-folders.
-
 ### 2) Build
 
 You need to run the cmake again and and rebuild the project.
 
-Eluna API : 
+Eluna API :
 [http://elunaluaengine.github.io/](http://elunaluaengine.github.io/)
+
+## Eluna-TS
+
+The TypeScript support is integrated in this module, please refer to the [Eluna-TS/README.md](Eluna-TS/README.md) for more info
+
+## For Devs
+
+To keep the dependencies and Eluna-TS updated this module provides a script under `apps/git_tools/subrepo-update.sh`
+
+This script uses [git subrepo](https://github.com/ingydotnet/git-subrepo) in background
+
+Run that script to automatically push & pull changes with `Eluna-TS` and other internal dependencies. Note: LuaEngine is not handled directly by AzerothCore, it means that the `subrepo-update` script will only pull changes from that repo.
