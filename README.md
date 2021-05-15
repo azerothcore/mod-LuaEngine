@@ -30,6 +30,8 @@ Eluna API :
 
 The TypeScript support is integrated in this module, please refer to the [Eluna-TS/README.md](Eluna-TS/README.md) for more info
 
+NOTE: Eluna-TS is not in the `/deps` folder since it's used here as a subsystem/workspace
+
 ## For Devs
 
 To keep the dependencies and Eluna-TS updated this module provides a script under `apps/git_tools/subrepo-update.sh`

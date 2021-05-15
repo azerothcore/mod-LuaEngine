@@ -1,0 +1,20 @@
+{
+  "name": "mod-eluna-lua-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Eluna module for AzerothCore",
+  "scripts": {
+    "build" : "node Eluna-TS/run build:lib && node Eluna-TS/run build",
+    "dev" : "node Eluna-TS/run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azerothcore/mod-eluna-lua-engine.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/azerothcore/mod-eluna-lua-engine/issues"
+  },
+  "homepage": "https://github.com/azerothcore/mod-eluna-lua-engine#readme"
+}

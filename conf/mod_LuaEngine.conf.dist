@@ -17,9 +17,9 @@
 #   Eluna.ScriptPath
 #       Description: Sets the location of the script folder to load scripts from
 #                    The path can be relative or absolute.
-#       Default:    "lua_scripts"
+#       Default:    "../scripts/lua"
 #
 
 Eluna.Enabled = true
 Eluna.TraceBack = false
-Eluna.ScriptPath = "lua_scripts"
+Eluna.ScriptPath = "../scripts/lua"
