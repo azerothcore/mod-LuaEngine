@@ -5,7 +5,7 @@
   "description": "Eluna module for AzerothCore",
   "scripts": {
     "build" : "node Eluna-TS/run build:lib && node Eluna-TS/run build",
-    "dev" : "node Eluna-TS/run dev"
+    "dev" : "npm run build -- --watch"
   },
   "repository": {
     "type": "git",
