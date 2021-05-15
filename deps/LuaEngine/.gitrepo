@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/ElunaLuaEngine/Eluna.git
 	branch = master
-	commit = 2962d4fea3708cf22964d1cc750290b8980b313f
-	parent = 467cf0419e793f7bf4a15384c84209d8df3bcaed
+	commit = b4263aec64d1a3db38d0f78d31d8dbb4a09eb1f8
+	parent = cb63b8caaf87f750dee826e117cbefd3afca3879
 	method = merge
 	cmdver = 0.4.3
