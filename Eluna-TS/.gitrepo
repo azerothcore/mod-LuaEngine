@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/azerothcore/eluna-ts
 	branch = master
-	commit = e40d7e01397c4932d23cb80a9c26b4030a43f843
+	commit = 0d07b043f0d10fad91279c1e69797b79b01f05c7
 	parent = ef78860d2a315b4bec8618d108367e51a258e98f
 	method = merge
 	cmdver = 0.4.3
