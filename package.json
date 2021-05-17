@@ -4,8 +4,9 @@
   "private": true,
   "description": "Eluna module for AzerothCore",
   "scripts": {
-    "build" : "node Eluna-TS/run build:lib && node Eluna-TS/run build",
-    "dev" : "npm run build -- --watch"
+    "build": "node Eluna-TS/run build:lib && node Eluna-TS/run build",
+    "dev": "npm run build -- --watch",
+    "ts:setup": "npm install --cwd Eluna-TS --prefix Eluna-TS"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/azerothcore/mod-eluna-lua-engine/issues"
   },
-  "homepage": "https://github.com/azerothcore/mod-eluna-lua-engine#readme"
+  "homepage": "https://github.com/azerothcore/mod-eluna-lua-engine#readme",
+  "dependencies": {
+    "@azerothcore/eluna-ts": "file:Eluna-TS"
+  }
 }
